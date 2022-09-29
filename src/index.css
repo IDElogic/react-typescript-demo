@@ -1,13 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Righteous&family=Roboto+Mono:wght@300;500&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: url("./assets/bg7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  font-family:'Quicksand';
+}
+.greeting__container {
+  background: rgba(0, 0, 0, .8);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter:blur(5px);
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 5px;
+}
+.greeting__container h2 {
+  color: aliceblue;
+  padding: 1rem;
+}
+.greeting__container h4 {
+  color: aliceblue;
+  padding: 1rem;
+}
+.person__container {
+  background: rgba(255, 248, 248, .4);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter:blur(5px);
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 5px;
+}
+.person__container h2 {
+  color:black;
+  padding: 1rem;
+}
+.person__container h3 {
+  color:black;
+  padding: 1rem;
+}
+.personlist__conatiner {
+  background: rgba(0, 0, 0, .7);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter:blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    width: 80%;
+    margin: .5rem auto;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.personlist__conatiner  h2 {
+  color:coral;
+  padding: .5rem;
+}
+.personlist__conatiner  h3 {
+  color:coral;
+  padding: .5rem;
+}
+.status__container {
+    background: coral;
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter:blur(5px);
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 5px;
+}
+.status__container h3 {
+  color:darkslategray;
+  padding: .5rem;
+}
+.heading__container {
+    background: rgba(0, 0, 0, .5);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter:blur(5px);
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 5px;
+}
+.reusable__container {
+    background: rgba(255, 255,255, .6);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter:blur(5px);
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem auto;
+}
+.reusable__container h2 {
+  color:azure;
+  padding: .5rem;
+}
+.btn {
+  background: coral;
+  padding: 1rem;
+  width: 50%;
+  margin: 1rem auto;
+  color: azure;
+  letter-spacing: .09rem;
+  border-radius: 5px; 
+}
+.reusable__container {
+    background: rgba(255, 255,255, .4);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter:blur(5px);
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 5px;
+}
+.input__container {
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter:blur(5px);
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+.input__container input {
+  background: azure;
+  padding: 1rem;
+  width: 80%;
+  border: none;
+  margin: .5rem auto;
+  color: black;
+  border-radius: 5px;
+}
+.styleprops__container {
+  background: transparent;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter:blur(5px);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+  color: azure;
+}
+.box__container {
+  background: rgba(0, 0, 0, .4);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter:blur(5px);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+.usercontext {
+  background: coral;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter:blur(5px);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+.usercontext button {
+  background: coral;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter:blur(5px);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 20%;
+  margin: .2rem 1rem;
+  cursor: pointer;
+}
+.counter__container {
+  background: rgba(0, 0, 0, .4);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter:blur(5px);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+  color: azure;
+}
+.counter__container button {
+  background: rgba(0, 0, 0, .7);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter:blur(5px);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 60%;
+  margin: 1rem ;
+  color: azure;
+  cursor: pointer;
+}
+.toast__container {
+  background: rgba(0, 0, 0, .7);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter:blur(5px);
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+.toast__container h2 {  
+  color:azure;
+  padding: .5rem;
+}
+.domref__container {
+  background:rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter:blur(5px);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+.domref__container input {
+  background:transparent;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter:blur(5px);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+.mutableref__container {
+  background:rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter:blur(5px);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+  color: azure;
+  letter-spacing: .08rem;
+}
+.mutableref__container button {
+  background:coral;
+  padding: 1rem;
+  width: 20%;
+  margin:.2rem 1rem;
+  border-radius: 25px;
+}
+.randomnumber__container {
+  background:blanchedalmond;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter:blur(5px);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto 3rem auto;
+}
+.custombutton__container {
+  background: transparent;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter:blur(5px);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+.custombutton__container button {
+  background:coral;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 20%;
+  margin: 1rem auto;
+  color: azure;
+  cursor: pointer;
+}
+.list__conatiner {
+  background:rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter:blur(5px);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
