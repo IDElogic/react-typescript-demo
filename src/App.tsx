@@ -21,6 +21,7 @@ import { Toast } from './components/templateliterals/Toast'
 import { CustomButton } from './components/html/Button'
 import { RandomNumber } from './components/restriction/RandomNumber'
 
+
 function App() {
 
   const personName = {
@@ -46,6 +47,8 @@ function App() {
       last:'Name4',
     }
   ]
+
+  
 
   return (
     <div className="App">
@@ -103,6 +106,7 @@ function App() {
        Click
       </CustomButton>
       <RandomNumber value={10} isPositive />
+     
     </div>
   );
 }
